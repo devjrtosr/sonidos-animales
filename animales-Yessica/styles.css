@@ -1,0 +1,17 @@
+body{
+    background-color: #00b4d8;
+}
+h1{
+    text-align: center;
+}
+
+.img-animales-fila{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+img{
+    height:100px;
+    width: 100px;
+}
