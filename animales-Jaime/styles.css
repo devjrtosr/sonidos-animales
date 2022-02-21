@@ -1,0 +1,61 @@
+.cuerpo{
+    background-color: bisque;
+    text-align: center;
+}
+.Img1{
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.PrimeraFila{
+    display: flex;
+    flex-direction: row;
+    margin: 20;
+}
+
+.Img1:nth-of-type(1){
+    background-image: url(/sonidos-animales/animales-Jaime/assets/imagenes/avispa.jpg);
+}
+.Img1:nth-of-type(2){
+    background-image: url(/sonidos-animales/animales-Jaime/assets/imagenes/delfin.jpg);
+}
+.Img1:nth-of-type(3){
+    background-image: url(/sonidos-animales/animales-Jaime/assets/imagenes/foca.jpg);
+}
+.Img1:nth-of-type(4){
+    background-image: url(/sonidos-animales/animales-Jaime/assets/imagenes/grillo.jpg);
+}
+.Img1:nth-of-type(5){
+    background-image: url(/sonidos-animales/animales-Jaime/assets/imagenes/koala.jpg);
+}
+
+.Img2{
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Img2:nth-of-type(1){
+    background-image: url(/sonidos-animales/animales-Jaime/assets/imagenes/lince.jpg);
+}
+.Img2:nth-of-type(2){
+    background-image: url(/sonidos-animales/animales-Jaime/assets/imagenes/lobo.jpg);
+}
+.Img2:nth-of-type(3){
+    background-image: url(/sonidos-animales/animales-Jaime/assets/imagenes/penguin.jpg);
+}
+.Img2:nth-of-type(4){
+    background-image: url(/sonidos-animales/animales-Jaime/assets/imagenes/rana.jpg);
+}
+.Img2:nth-of-type(5){
+    background-image: url(/sonidos-animales/animales-Jaime/assets/imagenes/zorro.jpg);
+}
