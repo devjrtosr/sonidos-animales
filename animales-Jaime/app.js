@@ -1,42 +1,42 @@
-const animales = document.querySelectorAll('#Animales1')
+const animalesSuperior = document.querySelectorAll('#AnimalesColumnaSuperior')
 
 
-animales[0].addEventListener('click',function(){
+animalesSuperior[0].addEventListener('click',function(){
    new Audio('assets/sonidos/avispa.mp3').play();
 });
-animales[1].addEventListener('click',function(){
+animalesSuperior[1].addEventListener('click',function(){
     new Audio('assets/sonidos/delfin.mp3').play();
  });
 
- animales[2].addEventListener('click',function(){
+ animalesSuperior[2].addEventListener('click',function(){
     new Audio('assets/sonidos/foca.mp3').play();
  });
 
- animales[3].addEventListener('click',function(){
+ animalesSuperior[3].addEventListener('click',function(){
     new Audio('assets/sonidos/grillo.mp3').play();
  });
 
- animales[4].addEventListener('click',function(){
+ animalesSuperior[4].addEventListener('click',function(){
     new Audio('assets/sonidos/koala.mp3').play();
  });
 
- const animales0 = document.querySelectorAll('#Animales2')
+ const animalesInferior = document.querySelectorAll('#AnimalesColumnaInferior')
 
 
- animales0[0].addEventListener('click',function(){
+ animalesInferior[0].addEventListener('click',function(){
     new Audio('assets/sonidos/lince.mp3').play();
  });
 
- animales0[1].addEventListener('click',function(){
+ animalesInferior[1].addEventListener('click',function(){
     new Audio('assets/sonidos/lobo.mp3').play();
  });
- animales0[2].addEventListener('click',function(){
+ animalesInferior[2].addEventListener('click',function(){
     new Audio('assets/sonidos/penguin.mp3').play();
  });
- animales0[3].addEventListener('click',function(){
+ animalesInferior[3].addEventListener('click',function(){
     new Audio('assets/sonidos/rana.mp3').play();
  });
- animales0[4].addEventListener('click',function(){
+ animalesInferior[4].addEventListener('click',function(){
     new Audio('assets/sonidos/zorro.mp3').play();
  });
 
