@@ -55,19 +55,25 @@ document.addEventListener('keypress',function(e){
         });
         
         const reproducirSonido= (tecla) =>{
-            if(tecla=='a'){
+            if(tecla=='t'){
                 new Audio('../animales-aaron/sonidos/sonido-caballo.mp3').play();
-            } else if(tecla=='s'){
+            } else if(tecla=='y'){
                 new Audio('../animales-aaron/sonidos/sonido-elefante.mp3').play();
-            } else if(tecla=='d'){
+            } else if(tecla=='u'){
                 new Audio('../animales-aaron/sonidos/sonido-jaguar.mp3').play();
-            } else if(tecla=='f'){
+            } else if(tecla=='i'){
                 new Audio('../animales-aaron/sonidos/sonido-serpiente.mp3').play();
-            } else if(tecla=='g'){
+            } else if(tecla=='o'){
                 new Audio('../animales-aaron/sonidos/sonido-perro.mp3').play();
-            } else if(tecla=='h'){
+            } else if(tecla=='g'){
                 new Audio('../animales-aaron/sonidos/sonido-oso.mp3').play();
+            } else if(tecla=='h'){
+                new Audio('../animales-aaron/sonidos/sonido-panteraNegra.mp3').play();
             } else if(tecla=='j'){
+                new Audio('../animales-aaron/sonidos/sonido-tigre.mp3').play();
+            } else if(tecla=='k'){
+                new Audio('../animales-aaron/sonidos/sonido-leon.mp3').play(); 
+            } else if(tecla=='l'){
                 new Audio('../animales-aaron/sonidos/sonido-puma.mp3').play();
             }
         

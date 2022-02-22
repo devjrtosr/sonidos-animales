@@ -24,7 +24,10 @@ body {
   .imagenes {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
   }
   .imagen {
     height: 400px;
+    width: 450px;
+    margin: 50px;
   }
