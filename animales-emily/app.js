@@ -36,25 +36,25 @@ document.addEventListener('keypress',function(e){
 });
 
 const reproducirSonido= (tecla) =>{
-    if(tecla=='a'){
+    if(tecla=='t'){
         new Audio('animales-emily/sonidos/ballena.mp3').play();
-    } else if(tecla=='s'){
+    } else if(tecla=='y'){
         new Audio('animales-emily/sonidos/caballo.mp3').play();
-    } else if(tecla=='d'){
+    } else if(tecla=='u'){
         new Audio('animales-emily/sonidos/cabra.mp3').play();
-    } else if(tecla=='f'){
+    } else if(tecla=='i'){
         new Audio('animales-emily/sonidos/perro.mp3').play();
-    } else if(tecla=='g'){
+    } else if(tecla=='o'){
         new Audio('animales-emily/sonidos/delfin.mp3').play();
-    } else if(tecla=='h'){
+    } else if(tecla=='g'){
         new Audio('animales-emily/sonidos/elefante.mp3').play();
-    } else if(tecla=='j'){
+    } else if(tecla=='h'){
         new Audio('../animales-emily/sonidos/gato.mp3').play();
-    } else if(tecla=='k'){
+    } else if(tecla=='j'){
         new Audio('../animales-emily/sonidos/leon.mp3').play();
-    } else if(tecla=='l'){
+    } else if(tecla=='k'){
         new Audio('../animales-emily/sonidos/pinguino.mp3').play();
-    } else if(tecla=='ñ'){
+    } else if(tecla=='l'){
         new Audio('../animales-emily/sonidos/vaca.mp3').play();
     }  
 }
