@@ -42,10 +42,10 @@ animales[1].addEventListener('click',function(){
 
 
  document.addEventListener('keypress',function(e){
-    repoducirAnimal(e.key);
+    reproducirAnimal(e.key);
 });
 
-    const repoducirAnimal = (tecla) =>{
+    const reproducirAnimal = (tecla) =>{
 
         if(tecla == 'a'){
             new Audio('assets/sonidos/avispa.mp3').play();
